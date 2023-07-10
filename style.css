@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  color: aqua;
+}
+.banner-area {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.banner-image img {
+  width: 1261px;
+}
+.banner-image {
+  width: 50%;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-h1 {
+  margin: 20px 230px 24px 100px;
+  color: #151414;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-description {
+  margin-right: 230px;
+  color: #444343;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.banner-button {
+  padding: 15px 25px;
+  margin-right: 230px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background: #f15b22;
+  border: none;
+}
+.year-area {
+  display: flex;
+  height: 120vh;
+  align-items: center;
+}
+.year-image {
+  width: 50%;
+  margin-top: 130px;
+  height: 100%;
+}
+.year-content {
+  width: 50%;
+  margin-top: 900px;
+}
+.year-h1 {
+  margin-top: 350px;
+  margin-right: 350px;
+  margin-left: 70px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.year-description {
+  margin-top: 25px;
+  margin-left: 70px;
+  margin-right: 300px;
+  margin-bottom: 15px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.check-sign {
+  margin-left: 70px;
+}
+.right-sign {
+  margin-bottom: 8px;
+}
+.aqua-sign {
+  color: rgb(0, 155, 155);
+  margin-right: 5px;
+}
+.my-plan {
+  margin-top: 150px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.box-container img {
+  width: 80px;
+  margin-top: 50px;
+}
+.box-h2 {
+  margin-top: 25px;
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+.box-description {
+  margin-top: 10px;
+  color: #737272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
+}
+.call-container img {
+  width: 1000px;
+}
+.call-container {
+  border-radius: 10px;
+  background-image: url("images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  width: 1000px;
+  height: 210px;
+  margin: 120px 120px;
+  display: flex;
+  align-items: center;
+}
+.call-h1 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-right: 500px;
+  margin-bottom: 20px;
+}
+.call-button {
+  margin-left: 30px;
+  padding: 20px 35px;
+  color: red;
+}
+footer {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  background: #151414;
+}
+.footer-content {
+  width: 50%;
+  margin-left: 170px;
+}
+.footer-content-h1 {
+  margin-bottom: 15px;
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-description {
+  padding-right: 160px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.footer-email {
+  margin-bottom: 15px;
+  display: block;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-number {
+  display: block;
+  margin-bottom: 25px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.second-icon {
+  margin: 0 15px;
+}
+
+.footer-form {
+  width: 50%;
+  margin-bottom: 80px;
+}
+.footer-form-h1 {
+    margin-bottom: 30px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer-form input {
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding: 20px 150px 20px 20px;
+  background: #151414;
+  color: #fff;
+}
+.footer-button{
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
